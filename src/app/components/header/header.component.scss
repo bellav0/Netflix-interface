@@ -1,0 +1,33 @@
+.header {
+  // background-color: 
+  width: 100%;
+  height: 68px;
+  display: flex;
+  position: fixed;
+  padding-left: 50px;
+  img{
+      width: 8%;
+  }
+  .options {
+    width: 40%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+    height: 100%;
+    font-weight: 500;
+    .option{
+      cursor: pointer;
+      &:hover{
+        color: #b3b3b3;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .header {
+    height: 41px;
+  }
+}

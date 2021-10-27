@@ -1,0 +1,23 @@
+<div class="destaque-content">
+  
+  <div class="informations">
+    <div class="sinopse">
+      <p>{{movie?.overview}}</p>
+    </div>
+    <button mat-button id="assistir" class="infos">
+      <div class="bttns">
+        <mat-icon>play_arrow</mat-icon>
+        <span>Assistir</span>
+      </div>
+    </button>
+    <button mat-button class="infos" id="more-informations" (click)="openMovieDetails()">
+      <div class="bttns">
+        <mat-icon>info_outline</mat-icon>
+
+        <span>Mais Informações</span>
+      </div>
+    </button>
+  </div>
+
+  <img class="img" [src]="movie?.imageEmphasys" />
+</div>

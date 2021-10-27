@@ -1,0 +1,12 @@
+::ng-deep .owl-stage {
+    display: flex !important;
+    width: 100%;
+    &:hover{
+        cursor:grabbing;
+    }
+}
+
+
+::ng-deep .owl-item{
+    width: 210px !important;
+}

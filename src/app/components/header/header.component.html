@@ -1,0 +1,9 @@
+<div class="header" [style.background-color]="backgroundColor? backgroundColor : null" >
+    <img src="../../../assets/netflix-logo.svg" >
+    
+  <div class="options" >
+    <div *ngFor="let opcao of menu">
+      <span class="option">{{ opcao }}</span>
+    </div>
+  </div>
+</div>

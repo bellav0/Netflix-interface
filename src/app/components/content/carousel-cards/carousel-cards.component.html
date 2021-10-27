@@ -1,0 +1,13 @@
+
+
+<owl-carousel-o [options]="customOptions">
+
+    <ng-container *ngFor="let movie of movies" style="background-color: aliceblue; display: flex;">
+        <ng-template carouselSlide [id]="movie.id">
+            <img [src]="movie.image" style="width: 200px; height: 300px;">
+        </ng-template>
+    </ng-container>
+      
+  </owl-carousel-o> 
+
+  
