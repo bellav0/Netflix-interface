@@ -1,15 +1,13 @@
 <div class="modal">
-<div class="close-modal" (click)="closeModal()">
-    <span class="material-icons">
-        cancel
-        </span>
+  <div class="close-modal" (click)="closeModal()">
+    <span class="material-icons"> cancel </span>
+  </div>
+
+  <div class="modal">
+    <img [src]="data.movie?.imageEmphasys" />
+    <img
+      src="../../../../assets/nav-shadow.png"
+      style="position: relative; bottom: 12.5 vh"
+    />
+  </div>
 </div>
-
-<div class="modal">
-    <img [src]="data.movie?.imageEmphasys">
-</div>
-
-
-</div>
-
-
